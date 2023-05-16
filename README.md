@@ -34,4 +34,5 @@ Objective: Minimize the total Manhattan displacement of all the cells.
 Constraint:
 The resulting placement should be non-overlapping, and all the cells are placed within the
 region of H×W in rows of their respective type without overflow.
+
 For most of the cases, the number of cells is below 500k.
