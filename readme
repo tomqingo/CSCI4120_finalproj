@@ -1,0 +1,4 @@
+The detail placement script is run as follows:
+
+The basic usage is:
+    python detail_placer.py --input <input_file> --output <solution_file>
