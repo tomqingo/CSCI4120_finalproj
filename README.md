@@ -20,6 +20,7 @@ solution where xi and yi for i = 1…n are floats
 - the height (8T or 12T) and width (in number of cell sites) of each cell
 - a displacement upper bound B
 - track height and site width
+
 Output:
 - number of rows m
 - the starting track number of each row, which must be a multiple of 4, and the type of the
@@ -27,7 +28,9 @@ row (8T or 12T)
 - the new position (pi, qi) of the lower left corner of each cell i where pi is the starting track
 number of a row (so pi is a multiple of 4) with the same type (8T or 12T) as cell i and qi is a
 non-negative integer less than W.
+
 Objective: Minimize the total Manhattan displacement of all the cells.
+
 Constraint:
 The resulting placement should be non-overlapping, and all the cells are placed within the
 region of H×W in rows of their respective type without overflow.
